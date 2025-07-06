@@ -1,0 +1,52 @@
+.Navbar{
+    height: 100vh;
+    width: 15vw;
+    /* background: linear-gradient(135deg, #1e1e2f, #fad0c4); */
+    background: linear-gradient(135deg, #1e1e2f, #fad0c4);
+
+    position: fixed;
+    color: #ffffff;
+}
+.Navbar:hover{
+    color: #6A00FF;
+}
+.Nav{
+    padding-left: 15%;
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 30px;
+}
+.icons{
+    font-size: 24px; 
+  margin-right: 8px;
+  cursor: pointer;
+  
+}
+.logo-icons{
+    font-size: 35px;
+    margin-right: 3px;
+}
+.logout-container{
+    display: inline-flex;
+    align-items: center;
+}
+
+.addPhoto{
+    border: 2px solid black; 
+    text-align:end;
+    padding: 2px 5px;
+    position: absolute;
+    border-radius: 7px;
+    right: 1rem;
+    cursor: pointer;
+}
+.soical_media{
+    font-size: 1rem;
+    font-family:sans-serif;
+    color:  white;
+}
+.profileIcon{
+    font-size: 35px;
+    margin-left: 10px;
+}
