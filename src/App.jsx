@@ -7,7 +7,7 @@ import SignIn from './Authentication/SignIn';
 import {BrowserRouter, Routes, Route } from "react-router-dom";
 import Explore from './Navbar/Explore';
 import Profile from './Navbar/Profile';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 function App() {
