@@ -26,6 +26,7 @@ function Main_Section() {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
+        setUsers("loading please wait")
         const response = await axios.get(`http://localhost:3000/user/users`);
         console.log("users: ", response.data);
 
